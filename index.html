@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-df3df8e5.css" rel="stylesheet" />
+    <link href="stylesheets/application-43064cb8.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -58,7 +58,25 @@
     <p>
       Book unique homes and experience a city like a local.
     </p>
-    <a class="btn btn-primary btn-lg">Start now</a>
+    <div class="container">
+      <!-- Your form content -->
+      <form action="#" class = "form-inline">
+        <div class="form-group">
+          <input type="text" id="place" placeholder="Where" class = "form-control btn-lg">
+        </div>
+        <div class="form-group">
+          <input type="date" id="date" placeholder="When" class = "form-control btn-lg">
+        </div>
+        <div class="form-group">
+          <select id="guests" name="guests" class = "form-control btn-lg">
+            <option value=1>1 guest</option>
+            <option value=2>2 guests</option>
+            <option value=3>3 guests</option>
+          </select>
+        </div>
+        <input type="submit" value="Sign In" class="btn btn-primary btn-lg">
+      </form>
+    </div>
   </div>
 </div>
 
